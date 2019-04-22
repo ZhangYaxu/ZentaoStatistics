@@ -15,17 +15,18 @@ read config.ini as dict (each parameter name cannot be the same)
 eg:s = conf()
    s['http']
 """
-
+curPath = os.path.abspath(os.path.dirname(__file__))
+fatherPath = os.path.dirname(curPath)
 
 def conf():
 	"""
 	处理BOM字符（当配置文件被记事本编辑过后，会插入一个bom头）
 	"""
-	log = ZypLog.Logger(r'%s\ZentaoStatistics\Log\config.log' % os.path.dirname(os.getcwd()), level='info')
+	log = ZypLog.Logger(r'%s\Log\config.log' % fatherPath, level='info')
 	try:
 		bom = b'\xef\xbb\xbf'
 		# with open(r'%s\Configs\config.ini' % father_path(), 'r+b') as f:
-		with open(r'%s\ZentaoStatistics\appsettings.ini' % os.path.dirname(os.getcwd()), 'r+b') as f:
+		with open(r'%s\appsettings.ini' % fatherPath, 'r+b') as f:
 			if bom == f.read(3):
 				content = f.read()
 				f.seek(0)
@@ -35,7 +36,7 @@ def conf():
 		log.logger.error(str(e))
 	try:
 		cf = configparser.ConfigParser()
-		cf.read(r'%s\ZentaoStatistics\appsettings.ini' % os.path.dirname(os.getcwd()), encoding='utf-8')
+		cf.read(r'%s\appsettings.ini' % fatherPath, encoding='utf-8')
 		section = cf.sections()
 		kv = []
 		for i in range(len(section)):

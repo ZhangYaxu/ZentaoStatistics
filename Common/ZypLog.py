@@ -53,7 +53,7 @@ class Logger(object):
 
 
 if __name__ == '__main__':
-	log = Logger(r'%s\Log\all.log' % os.path.dirname(os.getcwd()), level='debug')
+	log = Logger(r'%s\Log\all.log' % os.path.dirname(os.path.abspath(os.path.dirname(__file__))), level='debug')
 	log.logger.debug('this is debug level log')
 	log.logger.info('this is info level log')
 	log.logger.warning('this is warning level log')
