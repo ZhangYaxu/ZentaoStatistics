@@ -7,13 +7,8 @@
 # @license : Copyright(C), eWord Technology Co., Ltd.
 # @Contact : yeahcheung213@163.com
 
-# u = ['胡东慧', '吴美杰']
-# p = ['按需打印', 'eWordIMCIS', 'eWordToken']
-# p1 = ['eWordIMCIS']
-# p2 = ['医学影像浏览器']
-# u1=['吴美杰']
-# u2=[]
-from manipulation import get_QS
+"""处理禅道数据"""
+
 def set_body(user_list, product_list):
 	L = []
 	if user_list != [] and product_list == []:
@@ -40,7 +35,3 @@ def return_score(body_list,result_list):
 				pass
 	return r_list
 	
-
-if __name__ == "__main__":
-	# score = return_score(["李明"],get_QS())
-	print(score)

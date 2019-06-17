@@ -1,0 +1,108 @@
+[时间]:2019-05-10 14:21:13,686
+[线程]:1948
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://root:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:21:52,590
+[线程]:7576
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:24:57,099
+[线程]:8108
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:29:04,774
+[线程]:4564
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:31:09,793
+[线程]:14496
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:31:32,108
+[线程]:72
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql://test:123456@192.168.1.16:3306/zentao_test?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:31:52,278
+[线程]:9456
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysq://test:123456@192.168.1.16:3306/zentao_test?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:32:04,386
+[线程]:12788
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.16:3306/zentao_test?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:32:38,394
+[线程]:9816
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:49:38,440
+[线程]:16004
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 14:50:32,688
+[线程]:9640
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-05-10 15:01:37,440
+[线程]:15708
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+

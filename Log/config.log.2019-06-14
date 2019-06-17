@@ -1,0 +1,18 @@
+[时间]:2019-06-14 16:58:53,433
+[线程]:27204
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+
+[时间]:2019-06-14 17:08:42,481
+[线程]:24568
+[级别]:INFO
+[路径]:E:\python\ZentaoStatistics\Common\ReadConfig.py
+[函数]:conf
+[行号]:46
+[信息]:read config:{'connect_string': 'mysql+pymysql://test:123456@192.168.1.43:3306/zentao?charset=utf8', 'port': '8009'}
+------------------
+

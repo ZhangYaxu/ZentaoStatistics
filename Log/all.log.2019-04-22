@@ -1,0 +1,45 @@
+[时间]:2019-04-22 17:29:10,666
+[线程]:4332
+[级别]:DEBUG
+[路径]:E:/python/ZentaoStatistics/Common/ZypLog.py
+[函数]:<module>
+[行号]:57
+[信息]:this is debug level log
+------------------
+
+[时间]:2019-04-22 17:29:10,666
+[线程]:4332
+[级别]:INFO
+[路径]:E:/python/ZentaoStatistics/Common/ZypLog.py
+[函数]:<module>
+[行号]:58
+[信息]:this is info level log
+------------------
+
+[时间]:2019-04-22 17:29:10,666
+[线程]:4332
+[级别]:WARNING
+[路径]:E:/python/ZentaoStatistics/Common/ZypLog.py
+[函数]:<module>
+[行号]:59
+[信息]:this is warning level log
+------------------
+
+[时间]:2019-04-22 17:29:10,666
+[线程]:4332
+[级别]:ERROR
+[路径]:E:/python/ZentaoStatistics/Common/ZypLog.py
+[函数]:<module>
+[行号]:60
+[信息]:this is debug error log
+------------------
+
+[时间]:2019-04-22 17:29:10,667
+[线程]:4332
+[级别]:CRITICAL
+[路径]:E:/python/ZentaoStatistics/Common/ZypLog.py
+[函数]:<module>
+[行号]:61
+[信息]:this is critical level log
+------------------
+

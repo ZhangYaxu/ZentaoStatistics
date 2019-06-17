@@ -15,8 +15,8 @@ read config.ini as dict (each parameter name cannot be the same)
 eg:s = conf()
    s['http']
 """
-curPath = os.path.abspath(os.path.dirname(__file__))
-fatherPath = os.path.dirname(curPath)
+curPath = os.path.abspath(os.path.dirname(__file__))# 获取当前文件路径
+fatherPath = os.path.dirname(curPath)# 当前文件父路径
 
 def conf():
 	"""
@@ -34,6 +34,7 @@ def conf():
 				f.truncate()
 	except (FileNotFoundError, FileExistsError) as e:
 		log.logger.error(str(e))
+	
 	try:
 		cf = configparser.ConfigParser()
 		cf.read(r'%s\appsettings.ini' % fatherPath, encoding='utf-8')
@@ -46,7 +47,6 @@ def conf():
 		return s
 	except Exception as e:
 		log.logger.error(str(e))
-
 
 PARA = conf()
 
